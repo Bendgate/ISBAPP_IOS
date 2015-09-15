@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>649C0FF9-9847-4B48-82C0-FB021ED1381B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0FF786C3A4304EE2CE7A3C007D030745A8BD186</key>
+		<string>https://github.com/InternationalSchoolBangkok/ISBAPP_IOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>App/ISB Ace/ISB Ace.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0FF786C3A4304EE2CE7A3C007D030745A8BD186</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/InternationalSchoolBangkok/ISBAPP_IOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0FF786C3A4304EE2CE7A3C007D030745A8BD186</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0FF786C3A4304EE2CE7A3C007D030745A8BD186</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ISBAPP_IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,9 +1,11 @@
 TODO
 
-
+***
+Learn to use Xcode with modifying the project (creating interfaces and interactions in Swift)
+***
 
 - Algorithms
 - API Implementation
-- Interface w/ API and Algorithms
+- Interface
 - Compatibility w/ different versions of iOS and devices
 - Easter egg
