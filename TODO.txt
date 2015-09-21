@@ -4,8 +4,13 @@ TODO
 Learn to use Xcode with modifying the project (creating interfaces and interactions in Swift)
 ***
 
+iOS Human Interface Guidelines
+
+https://itunes.apple.com/us/book/ios-human-interface-guidelines/id877942287?mt=11
+
 - Algorithms
 - API Implementation
 - Interface
-- Compatibility w/ different versions of iOS and devices
+- Compatibility with different versions of iOS
+- 
 - Easter egg
