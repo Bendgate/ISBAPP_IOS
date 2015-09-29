@@ -2,8 +2,8 @@
 //  ISB_AceTests.swift
 //  ISB AceTests
 //
-//  Created by Kake on 9/21/15.
-//  Copyright © 2015 HS Software Dev. All rights reserved.
+//  Created by Siraphob Phipathananunth on 29/9/15.
+//  Copyright © 2015 ISB. All rights reserved.
 //
 
 import XCTest

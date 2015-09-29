@@ -7,64 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20BF03181BB03BC7007D7E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF03171BB03BC7007D7E5A /* AppDelegate.swift */; };
-		20BF031A1BB03BC7007D7E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF03191BB03BC7007D7E5A /* ViewController.swift */; };
-		20BF031D1BB03BC7007D7E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BF031B1BB03BC7007D7E5A /* Main.storyboard */; };
-		20BF031F1BB03BC7007D7E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BF031E1BB03BC7007D7E5A /* Assets.xcassets */; };
-		20BF03221BB03BC7007D7E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BF03201BB03BC7007D7E5A /* LaunchScreen.storyboard */; };
-		20BF032D1BB03BC7007D7E5A /* ISB_AceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF032C1BB03BC7007D7E5A /* ISB_AceTests.swift */; };
-		20BF03381BB03BC7007D7E5A /* ISB_AceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF03371BB03BC7007D7E5A /* ISB_AceUITests.swift */; };
+		229D55261BBA752800AD3B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D55251BBA752800AD3B13 /* AppDelegate.swift */; };
+		229D55281BBA752800AD3B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D55271BBA752800AD3B13 /* ViewController.swift */; };
+		229D552B1BBA752800AD3B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229D55291BBA752800AD3B13 /* Main.storyboard */; };
+		229D552E1BBA752800AD3B13 /* ISB_Ace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 229D552C1BBA752800AD3B13 /* ISB_Ace.xcdatamodeld */; };
+		229D55301BBA752800AD3B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229D552F1BBA752800AD3B13 /* Assets.xcassets */; };
+		229D55331BBA752800AD3B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229D55311BBA752800AD3B13 /* LaunchScreen.storyboard */; };
+		229D553E1BBA752800AD3B13 /* ISB_AceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D553D1BBA752800AD3B13 /* ISB_AceTests.swift */; };
+		229D55491BBA752800AD3B13 /* ISB_AceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D55481BBA752800AD3B13 /* ISB_AceUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20BF03291BB03BC7007D7E5A /* PBXContainerItemProxy */ = {
+		229D553A1BBA752800AD3B13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20BF030C1BB03BC7007D7E5A /* Project object */;
+			containerPortal = 229D551A1BBA752800AD3B13 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20BF03131BB03BC7007D7E5A;
+			remoteGlobalIDString = 229D55211BBA752800AD3B13;
 			remoteInfo = "ISB Ace";
 		};
-		20BF03341BB03BC7007D7E5A /* PBXContainerItemProxy */ = {
+		229D55451BBA752800AD3B13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20BF030C1BB03BC7007D7E5A /* Project object */;
+			containerPortal = 229D551A1BBA752800AD3B13 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20BF03131BB03BC7007D7E5A;
+			remoteGlobalIDString = 229D55211BBA752800AD3B13;
 			remoteInfo = "ISB Ace";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20BF03141BB03BC7007D7E5A /* ISB Ace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISB Ace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BF03171BB03BC7007D7E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20BF03191BB03BC7007D7E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20BF031C1BB03BC7007D7E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20BF031E1BB03BC7007D7E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20BF03211BB03BC7007D7E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		20BF03231BB03BC7007D7E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20BF03281BB03BC7007D7E5A /* ISB AceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISB AceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BF032C1BB03BC7007D7E5A /* ISB_AceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISB_AceTests.swift; sourceTree = "<group>"; };
-		20BF032E1BB03BC7007D7E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20BF03331BB03BC7007D7E5A /* ISB AceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISB AceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BF03371BB03BC7007D7E5A /* ISB_AceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISB_AceUITests.swift; sourceTree = "<group>"; };
-		20BF03391BB03BC7007D7E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229D55221BBA752800AD3B13 /* ISB Ace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISB Ace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229D55251BBA752800AD3B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		229D55271BBA752800AD3B13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		229D552A1BBA752800AD3B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229D552D1BBA752800AD3B13 /* ISB_Ace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ISB_Ace.xcdatamodel; sourceTree = "<group>"; };
+		229D552F1BBA752800AD3B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229D55321BBA752800AD3B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229D55341BBA752800AD3B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229D55391BBA752800AD3B13 /* ISB AceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISB AceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229D553D1BBA752800AD3B13 /* ISB_AceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISB_AceTests.swift; sourceTree = "<group>"; };
+		229D553F1BBA752800AD3B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229D55441BBA752800AD3B13 /* ISB AceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISB AceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229D55481BBA752800AD3B13 /* ISB_AceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISB_AceUITests.swift; sourceTree = "<group>"; };
+		229D554A1BBA752800AD3B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20BF03111BB03BC7007D7E5A /* Frameworks */ = {
+		229D551F1BBA752800AD3B13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BF03251BB03BC7007D7E5A /* Frameworks */ = {
+		229D55361BBA752800AD3B13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BF03301BB03BC7007D7E5A /* Frameworks */ = {
+		229D55411BBA752800AD3B13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20BF030B1BB03BC7007D7E5A = {
+		229D55191BBA752800AD3B13 = {
 			isa = PBXGroup;
 			children = (
-				20BF03161BB03BC7007D7E5A /* ISB Ace */,
-				20BF032B1BB03BC7007D7E5A /* ISB AceTests */,
-				20BF03361BB03BC7007D7E5A /* ISB AceUITests */,
-				20BF03151BB03BC7007D7E5A /* Products */,
+				229D55241BBA752800AD3B13 /* ISB Ace */,
+				229D553C1BBA752800AD3B13 /* ISB AceTests */,
+				229D55471BBA752800AD3B13 /* ISB AceUITests */,
+				229D55231BBA752800AD3B13 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20BF03151BB03BC7007D7E5A /* Products */ = {
+		229D55231BBA752800AD3B13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20BF03141BB03BC7007D7E5A /* ISB Ace.app */,
-				20BF03281BB03BC7007D7E5A /* ISB AceTests.xctest */,
-				20BF03331BB03BC7007D7E5A /* ISB AceUITests.xctest */,
+				229D55221BBA752800AD3B13 /* ISB Ace.app */,
+				229D55391BBA752800AD3B13 /* ISB AceTests.xctest */,
+				229D55441BBA752800AD3B13 /* ISB AceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20BF03161BB03BC7007D7E5A /* ISB Ace */ = {
+		229D55241BBA752800AD3B13 /* ISB Ace */ = {
 			isa = PBXGroup;
 			children = (
-				20BF03171BB03BC7007D7E5A /* AppDelegate.swift */,
-				20BF03191BB03BC7007D7E5A /* ViewController.swift */,
-				20BF031B1BB03BC7007D7E5A /* Main.storyboard */,
-				20BF031E1BB03BC7007D7E5A /* Assets.xcassets */,
-				20BF03201BB03BC7007D7E5A /* LaunchScreen.storyboard */,
-				20BF03231BB03BC7007D7E5A /* Info.plist */,
+				229D55251BBA752800AD3B13 /* AppDelegate.swift */,
+				229D55271BBA752800AD3B13 /* ViewController.swift */,
+				229D55291BBA752800AD3B13 /* Main.storyboard */,
+				229D552F1BBA752800AD3B13 /* Assets.xcassets */,
+				229D55311BBA752800AD3B13 /* LaunchScreen.storyboard */,
+				229D55341BBA752800AD3B13 /* Info.plist */,
+				229D552C1BBA752800AD3B13 /* ISB_Ace.xcdatamodeld */,
 			);
 			path = "ISB Ace";
 			sourceTree = "<group>";
 		};
-		20BF032B1BB03BC7007D7E5A /* ISB AceTests */ = {
+		229D553C1BBA752800AD3B13 /* ISB AceTests */ = {
 			isa = PBXGroup;
 			children = (
-				20BF032C1BB03BC7007D7E5A /* ISB_AceTests.swift */,
-				20BF032E1BB03BC7007D7E5A /* Info.plist */,
+				229D553D1BBA752800AD3B13 /* ISB_AceTests.swift */,
+				229D553F1BBA752800AD3B13 /* Info.plist */,
 			);
 			path = "ISB AceTests";
 			sourceTree = "<group>";
 		};
-		20BF03361BB03BC7007D7E5A /* ISB AceUITests */ = {
+		229D55471BBA752800AD3B13 /* ISB AceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				20BF03371BB03BC7007D7E5A /* ISB_AceUITests.swift */,
-				20BF03391BB03BC7007D7E5A /* Info.plist */,
+				229D55481BBA752800AD3B13 /* ISB_AceUITests.swift */,
+				229D554A1BBA752800AD3B13 /* Info.plist */,
 			);
 			path = "ISB AceUITests";
 			sourceTree = "<group>";
@@ -128,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20BF03131BB03BC7007D7E5A /* ISB Ace */ = {
+		229D55211BBA752800AD3B13 /* ISB Ace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BF033C1BB03BC7007D7E5A /* Build configuration list for PBXNativeTarget "ISB Ace" */;
+			buildConfigurationList = 229D554D1BBA752800AD3B13 /* Build configuration list for PBXNativeTarget "ISB Ace" */;
 			buildPhases = (
-				20BF03101BB03BC7007D7E5A /* Sources */,
-				20BF03111BB03BC7007D7E5A /* Frameworks */,
-				20BF03121BB03BC7007D7E5A /* Resources */,
+				229D551E1BBA752800AD3B13 /* Sources */,
+				229D551F1BBA752800AD3B13 /* Frameworks */,
+				229D55201BBA752800AD3B13 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,68 +145,68 @@
 			);
 			name = "ISB Ace";
 			productName = "ISB Ace";
-			productReference = 20BF03141BB03BC7007D7E5A /* ISB Ace.app */;
+			productReference = 229D55221BBA752800AD3B13 /* ISB Ace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20BF03271BB03BC7007D7E5A /* ISB AceTests */ = {
+		229D55381BBA752800AD3B13 /* ISB AceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BF033F1BB03BC7007D7E5A /* Build configuration list for PBXNativeTarget "ISB AceTests" */;
+			buildConfigurationList = 229D55501BBA752800AD3B13 /* Build configuration list for PBXNativeTarget "ISB AceTests" */;
 			buildPhases = (
-				20BF03241BB03BC7007D7E5A /* Sources */,
-				20BF03251BB03BC7007D7E5A /* Frameworks */,
-				20BF03261BB03BC7007D7E5A /* Resources */,
+				229D55351BBA752800AD3B13 /* Sources */,
+				229D55361BBA752800AD3B13 /* Frameworks */,
+				229D55371BBA752800AD3B13 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20BF032A1BB03BC7007D7E5A /* PBXTargetDependency */,
+				229D553B1BBA752800AD3B13 /* PBXTargetDependency */,
 			);
 			name = "ISB AceTests";
 			productName = "ISB AceTests";
-			productReference = 20BF03281BB03BC7007D7E5A /* ISB AceTests.xctest */;
+			productReference = 229D55391BBA752800AD3B13 /* ISB AceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		20BF03321BB03BC7007D7E5A /* ISB AceUITests */ = {
+		229D55431BBA752800AD3B13 /* ISB AceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BF03421BB03BC7007D7E5A /* Build configuration list for PBXNativeTarget "ISB AceUITests" */;
+			buildConfigurationList = 229D55531BBA752800AD3B13 /* Build configuration list for PBXNativeTarget "ISB AceUITests" */;
 			buildPhases = (
-				20BF032F1BB03BC7007D7E5A /* Sources */,
-				20BF03301BB03BC7007D7E5A /* Frameworks */,
-				20BF03311BB03BC7007D7E5A /* Resources */,
+				229D55401BBA752800AD3B13 /* Sources */,
+				229D55411BBA752800AD3B13 /* Frameworks */,
+				229D55421BBA752800AD3B13 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20BF03351BB03BC7007D7E5A /* PBXTargetDependency */,
+				229D55461BBA752800AD3B13 /* PBXTargetDependency */,
 			);
 			name = "ISB AceUITests";
 			productName = "ISB AceUITests";
-			productReference = 20BF03331BB03BC7007D7E5A /* ISB AceUITests.xctest */;
+			productReference = 229D55441BBA752800AD3B13 /* ISB AceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20BF030C1BB03BC7007D7E5A /* Project object */ = {
+		229D551A1BBA752800AD3B13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "HS Software Dev";
+				ORGANIZATIONNAME = ISB;
 				TargetAttributes = {
-					20BF03131BB03BC7007D7E5A = {
-						CreatedOnToolsVersion = 7.0;
+					229D55211BBA752800AD3B13 = {
+						CreatedOnToolsVersion = 7.0.1;
 					};
-					20BF03271BB03BC7007D7E5A = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 20BF03131BB03BC7007D7E5A;
+					229D55381BBA752800AD3B13 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 229D55211BBA752800AD3B13;
 					};
-					20BF03321BB03BC7007D7E5A = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 20BF03131BB03BC7007D7E5A;
+					229D55431BBA752800AD3B13 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 229D55211BBA752800AD3B13;
 					};
 				};
 			};
-			buildConfigurationList = 20BF030F1BB03BC7007D7E5A /* Build configuration list for PBXProject "ISB Ace" */;
+			buildConfigurationList = 229D551D1BBA752800AD3B13 /* Build configuration list for PBXProject "ISB Ace" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 20BF030B1BB03BC7007D7E5A;
-			productRefGroup = 20BF03151BB03BC7007D7E5A /* Products */;
+			mainGroup = 229D55191BBA752800AD3B13;
+			productRefGroup = 229D55231BBA752800AD3B13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20BF03131BB03BC7007D7E5A /* ISB Ace */,
-				20BF03271BB03BC7007D7E5A /* ISB AceTests */,
-				20BF03321BB03BC7007D7E5A /* ISB AceUITests */,
+				229D55211BBA752800AD3B13 /* ISB Ace */,
+				229D55381BBA752800AD3B13 /* ISB AceTests */,
+				229D55431BBA752800AD3B13 /* ISB AceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20BF03121BB03BC7007D7E5A /* Resources */ = {
+		229D55201BBA752800AD3B13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BF03221BB03BC7007D7E5A /* LaunchScreen.storyboard in Resources */,
-				20BF031F1BB03BC7007D7E5A /* Assets.xcassets in Resources */,
-				20BF031D1BB03BC7007D7E5A /* Main.storyboard in Resources */,
+				229D55331BBA752800AD3B13 /* LaunchScreen.storyboard in Resources */,
+				229D55301BBA752800AD3B13 /* Assets.xcassets in Resources */,
+				229D552B1BBA752800AD3B13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BF03261BB03BC7007D7E5A /* Resources */ = {
+		229D55371BBA752800AD3B13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BF03311BB03BC7007D7E5A /* Resources */ = {
+		229D55421BBA752800AD3B13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,59 +254,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20BF03101BB03BC7007D7E5A /* Sources */ = {
+		229D551E1BBA752800AD3B13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BF031A1BB03BC7007D7E5A /* ViewController.swift in Sources */,
-				20BF03181BB03BC7007D7E5A /* AppDelegate.swift in Sources */,
+				229D55281BBA752800AD3B13 /* ViewController.swift in Sources */,
+				229D55261BBA752800AD3B13 /* AppDelegate.swift in Sources */,
+				229D552E1BBA752800AD3B13 /* ISB_Ace.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BF03241BB03BC7007D7E5A /* Sources */ = {
+		229D55351BBA752800AD3B13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BF032D1BB03BC7007D7E5A /* ISB_AceTests.swift in Sources */,
+				229D553E1BBA752800AD3B13 /* ISB_AceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BF032F1BB03BC7007D7E5A /* Sources */ = {
+		229D55401BBA752800AD3B13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BF03381BB03BC7007D7E5A /* ISB_AceUITests.swift in Sources */,
+				229D55491BBA752800AD3B13 /* ISB_AceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20BF032A1BB03BC7007D7E5A /* PBXTargetDependency */ = {
+		229D553B1BBA752800AD3B13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20BF03131BB03BC7007D7E5A /* ISB Ace */;
-			targetProxy = 20BF03291BB03BC7007D7E5A /* PBXContainerItemProxy */;
+			target = 229D55211BBA752800AD3B13 /* ISB Ace */;
+			targetProxy = 229D553A1BBA752800AD3B13 /* PBXContainerItemProxy */;
 		};
-		20BF03351BB03BC7007D7E5A /* PBXTargetDependency */ = {
+		229D55461BBA752800AD3B13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20BF03131BB03BC7007D7E5A /* ISB Ace */;
-			targetProxy = 20BF03341BB03BC7007D7E5A /* PBXContainerItemProxy */;
+			target = 229D55211BBA752800AD3B13 /* ISB Ace */;
+			targetProxy = 229D55451BBA752800AD3B13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20BF031B1BB03BC7007D7E5A /* Main.storyboard */ = {
+		229D55291BBA752800AD3B13 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20BF031C1BB03BC7007D7E5A /* Base */,
+				229D552A1BBA752800AD3B13 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		20BF03201BB03BC7007D7E5A /* LaunchScreen.storyboard */ = {
+		229D55311BBA752800AD3B13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20BF03211BB03BC7007D7E5A /* Base */,
+				229D55321BBA752800AD3B13 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -311,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		20BF033A1BB03BC7007D7E5A /* Debug */ = {
+		229D554B1BBA752800AD3B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,7 +360,7 @@
 			};
 			name = Debug;
 		};
-		20BF033B1BB03BC7007D7E5A /* Release */ = {
+		229D554C1BBA752800AD3B13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -394,70 +398,70 @@
 			};
 			name = Release;
 		};
-		20BF033D1BB03BC7007D7E5A /* Debug */ = {
+		229D554E1BBA752800AD3B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ISB Ace/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HS-Software-Dev.ISB-Ace";
+				PRODUCT_BUNDLE_IDENTIFIER = "ISB.ISB-Ace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		20BF033E1BB03BC7007D7E5A /* Release */ = {
+		229D554F1BBA752800AD3B13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ISB Ace/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HS-Software-Dev.ISB-Ace";
+				PRODUCT_BUNDLE_IDENTIFIER = "ISB.ISB-Ace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		20BF03401BB03BC7007D7E5A /* Debug */ = {
+		229D55511BBA752800AD3B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ISB AceTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HS-Software-Dev.ISB-AceTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "ISB.ISB-AceTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISB Ace.app/ISB Ace";
 			};
 			name = Debug;
 		};
-		20BF03411BB03BC7007D7E5A /* Release */ = {
+		229D55521BBA752800AD3B13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ISB AceTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HS-Software-Dev.ISB-AceTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "ISB.ISB-AceTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISB Ace.app/ISB Ace";
 			};
 			name = Release;
 		};
-		20BF03431BB03BC7007D7E5A /* Debug */ = {
+		229D55541BBA752800AD3B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "ISB AceUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HS-Software-Dev.ISB-AceUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "ISB.ISB-AceUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "ISB Ace";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		20BF03441BB03BC7007D7E5A /* Release */ = {
+		229D55551BBA752800AD3B13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "ISB AceUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "HS-Software-Dev.ISB-AceUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "ISB.ISB-AceUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "ISB Ace";
 				USES_XCTRUNNER = YES;
@@ -467,40 +471,53 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20BF030F1BB03BC7007D7E5A /* Build configuration list for PBXProject "ISB Ace" */ = {
+		229D551D1BBA752800AD3B13 /* Build configuration list for PBXProject "ISB Ace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BF033A1BB03BC7007D7E5A /* Debug */,
-				20BF033B1BB03BC7007D7E5A /* Release */,
+				229D554B1BBA752800AD3B13 /* Debug */,
+				229D554C1BBA752800AD3B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20BF033C1BB03BC7007D7E5A /* Build configuration list for PBXNativeTarget "ISB Ace" */ = {
+		229D554D1BBA752800AD3B13 /* Build configuration list for PBXNativeTarget "ISB Ace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BF033D1BB03BC7007D7E5A /* Debug */,
-				20BF033E1BB03BC7007D7E5A /* Release */,
+				229D554E1BBA752800AD3B13 /* Debug */,
+				229D554F1BBA752800AD3B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		20BF033F1BB03BC7007D7E5A /* Build configuration list for PBXNativeTarget "ISB AceTests" */ = {
+		229D55501BBA752800AD3B13 /* Build configuration list for PBXNativeTarget "ISB AceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BF03401BB03BC7007D7E5A /* Debug */,
-				20BF03411BB03BC7007D7E5A /* Release */,
+				229D55511BBA752800AD3B13 /* Debug */,
+				229D55521BBA752800AD3B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		20BF03421BB03BC7007D7E5A /* Build configuration list for PBXNativeTarget "ISB AceUITests" */ = {
+		229D55531BBA752800AD3B13 /* Build configuration list for PBXNativeTarget "ISB AceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BF03431BB03BC7007D7E5A /* Debug */,
-				20BF03441BB03BC7007D7E5A /* Release */,
+				229D55541BBA752800AD3B13 /* Debug */,
+				229D55551BBA752800AD3B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		229D552C1BBA752800AD3B13 /* ISB_Ace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				229D552D1BBA752800AD3B13 /* ISB_Ace.xcdatamodel */,
+			);
+			currentVersion = 229D552D1BBA752800AD3B13 /* ISB_Ace.xcdatamodel */;
+			path = ISB_Ace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 20BF030C1BB03BC7007D7E5A /* Project object */;
+	rootObject = 229D551A1BBA752800AD3B13 /* Project object */;
 }
